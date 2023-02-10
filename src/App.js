@@ -4,8 +4,10 @@ import Form from './components/form';
 
 function App() {
   return (
-
-    <Form />
+    <div className='App'>
+        <Form />
+    </div>
+    
 
   );
 }

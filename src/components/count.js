@@ -4,6 +4,8 @@ import { useState } from "react";
 function Count(){
     const [count, setCount] = useState(0);
 
+
+
     return(
         <div>
             <p>angka: {count} </p>
@@ -14,8 +16,11 @@ function Count(){
                 setCount(count-1)
             }}>Kurang</button>
         </div>
+
+
+            
     )
 }
-// buat sebuah form dan isi nya form ada nama, nim, angkatan, hoby.
+// buat sebuah form dan isi nya form ada nama, nim, angkatan, hobi.
 
 export default Count;
